@@ -1,4 +1,4 @@
 # KernelSU
 
-# Nothing here
-Don't mind
+# Some props for myself 
+⚠️⚠️⚠️ Only for Xiaomi Hyper OS 2
