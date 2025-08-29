@@ -1,0 +1,58 @@
+# This file will be read by resetprop
+# 示例: 更改 dpi
+# ro.sf.lcd_density=410
+# vendor.display.lcd_density=410
+
+# 高级材质
+persist.sys.background_blur_supported=true
+persist.sys.background_blur_status_default=true
+persist.sys.background_blur_version=2
+persist.sys.advanced_visual_release=3
+# Ultra HDR
+persist.sys.support_ultra_hdr=true
+# 高精度位置服务
+persist.vendor.gnss.hpLocSetUI=1
+# 声音与触感
+sys.haptic.slide_version=2.0
+#锁屏字体模糊
+persist.sys.add_blurnoise_supported=true
+#超级小爱水波纹
+persist.sys.support_ai_wakeup_effect=true
+
+# Vibration
+sys.haptic.down.weak=0
+sys.haptic.down.normal=3
+sys.haptic.down.strong=6
+sys.haptic.down=1,2
+sys.haptic.keyboard=0,2
+sys.haptic.tap.normal=1,2
+sys.haptic.tap.light=1,1
+sys.haptic.flick=1,2
+sys.haptic.flick.light=1,1
+sys.haptic.switch=1,1
+sys.haptic.mesh.heavy=1,2
+sys.haptic.mesh.normal=1,1
+sys.haptic.mesh.light=1,0
+sys.haptic.long.press=1,1
+sys.haptic.popup.normal=1,2
+sys.haptic.popup.light=1,1
+sys.haptic.pickup=1,2
+sys.haptic.scroll.edge=1,0
+sys.haptic.trigger.drawer=1,0
+sys.haptic.hold=1,2
+sys.haptic.boundary_time=0,2
+sys.haptic.button_large=1,2
+sys.haptic.button_middle=1,1
+sys.haptic.button_small=1,0
+sys.haptic.gear_light=1,1
+sys.haptic.gear_heavy=1,2
+sys.haptic.alert=0,2
+sys.haptic.zaxis_switch=0,2
+sys.haptic.runin=18
+sys.haptic.motor=linear
+sys.haptic.infinitelevel=true
+sys.haptic.dynamiceffect=true
+sys.haptic.boundary_spatial=1,2
+sys.haptic.dynamiceffect.richtap=true
+sys.haptic.intensityforkeyboard=true
+sys.haptics.superfriend.d1ycll.long.presss.all=fash
