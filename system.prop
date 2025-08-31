@@ -14,10 +14,19 @@ persist.sys.support_ultra_hdr=true
 persist.vendor.gnss.hpLocSetUI=1
 # 声音与触感
 sys.haptic.slide_version=2.0
-#锁屏字体模糊
+# 锁屏字体模糊
 persist.sys.add_blurnoise_supported=true
-#超级小爱水波纹
+# 超级小爱水波纹
 persist.sys.support_ai_wakeup_effect=true
+# 防闪烁模式
+debug.secert_dc_backlight.enable=ture
+persist.vendor.dc_backlight.enable=ture
+persist.vendor.fod.modified.dc_status=ture
+# 关闭AI预加载
+persist.sys.prestart.proc=false
+persist.sys.preload.enable=false
+# 开启dm映射
+persist.miui.extm.dm_opt.enable=ture
 
 # Vibration
 sys.haptic.down.weak=0
